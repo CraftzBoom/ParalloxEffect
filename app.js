@@ -5,6 +5,7 @@ let mountainFront = document.getElementById('mountain_front');
 let text = document.getElementById('text');
 let btn = document.getElementById('btn');
 let header = document.querySelector('header');
+let logo = document.getElementById('logo');
 
 
 const parallaxEffect = () => {
@@ -20,3 +21,6 @@ const parallaxEffect = () => {
 };
 
 window.addEventListener('scroll', parallaxEffect);
+
+
+// logo.addEventListener('click', () => location.href = "");

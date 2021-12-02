@@ -7,7 +7,7 @@ let btn = document.getElementById('btn');
 let header = document.querySelector('header');
 
 
-const paralloxEffect = () => {
+const parallaxEffect = () => {
     let value = window.scrollY;
     stars.style.left = value * 0.25 + 'px';
     moon.style.top = value * 1.05 + 'px';
@@ -19,4 +19,4 @@ const paralloxEffect = () => {
     header.style.top = value * 0.5 + 'px';
 };
 
-window.addEventListener('scroll', paralloxEffect);
+window.addEventListener('scroll', parallaxEffect);
